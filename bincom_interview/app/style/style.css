@@ -1,0 +1,367 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body{
+    background: url(../all-images/images/background.jpg) center bottom;
+    background-size: cover;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.body-div{
+    position: fixed;
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    top: 5%;
+    background:#F4F4F4;
+    border-radius: 10px;
+}
+
+.body-div .left-div{
+    position:absolute;
+    width: 450px;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+
+
+.body-div .left-div .form-div{
+	padding:20px;
+}
+
+.body-div .left-div .form-div .header-div{
+    height: 50px;
+    border-bottom:rgba(0, 0, 0, .06) 1px solid;
+    margin-bottom: 20px;
+}
+
+.body-div .left-div .form-div .header-div .logo-div{
+    width: 180px;
+    float: left;
+}
+.body-div .left-div .form-div .header-div .logo-div img{
+    width: 100%;
+}
+
+.body-div .left-div .form-div .header-div .contact-div{
+    height: 24px;
+    padding-top:6px ;
+    width: 30px;
+    margin: 10px 0px 0px 5px;
+    border-radius: 3px;
+    float: right;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    color: #8EC64A;
+}
+
+.body-div .left-div .form-div .header-div .back-div{
+width: 60px;
+line-height: 0px;
+background-color: #999;
+color: #FFF;
+}
+.body-div .left-div .form-div .header-div .contact-div:hover{
+    background-color: #999;
+    color: #FFF;
+}
+.body-div .left-div .form-div .header-div .contact-div i{
+    font-size: 18px;
+}
+
+.body-div .left-div .form-div .fill-form-div{
+    width: 100%;
+    padding-bottom: 30px;
+    height: 450px;
+	overflow:auto;
+}
+
+
+.body-div .left-div .form-div .fill-form-div .title-div{
+    padding: 8px;
+}
+.body-div .left-div .form-div .fill-form-div .text-field{
+    width: 100%;
+    height: 50px;
+    border: rgba(0, 0, 0, .1) 1px solid;
+    border-radius: 3px;
+    padding: 0px 15px;
+    margin: 5px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	background:#FFF;
+	-webkit-text-fill-color: #1e1e1e;
+	-webkit-transition:all ease 0.2s;
+	-ms-transition:all ease 0.2s;
+	-o-transition:all ease 0.2s;
+	-moz-transition:all ease 0.2s;
+	 -webkit-appearance: none;
+    -moz-appearance: none;
+	-moz-appearance:textfield;
+	outline: none !important;
+}
+.body-div .left-div .form-div .fill-form-div .text-field:focus{
+	border:#1B5497 1px solid;
+}
+
+.body-div .left-div .form-div .fill-form-div .btn{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    border:none;
+    border-radius: 3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    background-image: linear-gradient(to right, #000,#8EC64A);
+    color: #FFF;
+}
+.body-div .left-div .form-div .fill-form-div .btn:hover{
+    background-image: linear-gradient(to left, #000,#8EC64A);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.body-div .right-div{
+    position:absolute;
+    width:calc(100% - 450px);
+    height: 100%;
+    right: 0px;
+    border-radius: 0px 10px 10px 0px;
+    background:#FFF;
+	overflow:auto;
+}
+
+.body-div .right-div .div-in{
+    padding: 20px;
+}
+
+
+.matrix-back-div{
+	background:#F5F5F5;
+	min-height:200px;
+	border-radius:4px;
+}
+.matrix-back-div .title-div{
+	border-bottom:#CCC 1px solid;
+	padding:10px;
+	color:#666;
+	height:20px;
+	line-height:20px;
+	font-size:13px;
+}
+.matrix-back-div .title-div span{
+	color:#8EC64A;
+}
+
+.matrix-back-div .result-div{
+	width:calc(100% - 300px);
+	float:left;
+}
+.matrix-back-div .result-div .matrix-div{
+	line-height:25px;
+	height:25px;
+	font-size:14px;
+	border-bottom:#FFF 1px solid;
+	padding:5px 10px
+}
+.matrix-back-div .result-div .matrix-div .btn{
+	border:none;
+	float:right;
+	height:25px;
+	border-radius:3px;
+	padding:0px 10px;
+	background:#8EC64A;
+	color:#FFF;
+}
+
+
+.matrix-back-div .chart-div{
+	width:300px;
+	float:right;
+}
+.matrix-back-div .chart-div .div-in{
+	background:#FFF;
+	border-radius:4px;
+	padding:10px;
+	margin:20px;
+}
+
+
+
+@media all and (max-width:1100px) {
+.body-div{
+    width: 96%;
+    height: 96%;
+    left: 2%;
+    top: 2%;
+}
+}
+@media all and (max-width:1000px) {
+.body-div{
+    position: relative;
+	min-height:600px;
+	margin:30px auto;
+	left:0px;
+
+}
+.body-div .left-div{
+    position: relative ;
+    width: 100%;
+	height:auto;
+}
+.body-div .right-div{
+    position:relative;
+    width:100%;
+    height: auto;
+}
+
+}
+
+
+
+@media all and (max-width:550px) {
+.matrix-back-div .result-div{
+	width:100%;
+	float:none;
+}
+.matrix-back-div .chart-div{
+	width:100%;
+	float:none;
+}
+}
+
+
+
+
+.main-div {
+    margin-top: 20px;
+    width: 100%;
+    height: 65px;
+    background:#d8ecc0;
+    line-height: 65px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main-div .div-in {
+padding: 0px 10px;
+}
+
+.main-div:hover {
+    background:#cdd8bf;
+}
+
+
+.main-div .div-in .text-div .btn{
+    margin-top: 17.5px;
+	border:none;
+	float:right;
+	height:30px;
+	border-radius:3px;
+	padding:0px 10px;
+	background:#8EC64A;
+	color:#FFF;
+}
+
+
+
+
+/*--------------------------------------------------------------------------------------------------*/
+.success-div, #not-success-div, #warning-div{
+	width:300px;
+	height:50px;
+	padding-top:10px;
+	position:fixed;
+	right:0px;
+	top:100px;
+	z-index:1000;
+	font-size:14px;
+	color:#FFF;
+	cursor:pointer;
+	display:none;
+}
+.success-div div, #not-success-div div, #warning-div div{
+	background:rgba(255,255,255,.8);
+	text-align:center;
+	width:60px;
+	height:50px;
+	font-size:40px;
+	float:left;
+	padding-top:10px;
+	margin-right:5px;
+	margin-top:-10px;
+}
+.success-div span, #not-success-div span, #warning-div span{
+	font-size:12px;
+}
+#success-div{
+	background:rgba(0,202,101,1);
+}
+#success-div div{
+	color:rgba(0,202,101,1);
+}
+#not-success-div{
+	background: rgba(255,0,0,1);
+}
+#not-success-div div{
+	color:rgba(255,0,0,1);
+}
+#warning-div{
+	background: rgba(255,128,0,1);
+}
+#warning-div div{
+	color:rgba(255,128,0,1);
+}
+
+
+.notification-div{
+    background: rgba(0, 168, 89, .06);
+    padding: 15px;
+    line-height: 18px;
+    border: rgba(0, 168, 89, .1) 1px solid;
+    margin: 10px 0px;
+}
+.notification-div span{
+    color: cornflowerblue;
+}
+
+.ajax-loader{
+    margin: 50px auto;
+    width: 80%;
+    max-width: 300px;
+}
+.ajax-loader img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+HOW TO INSTALL THIS APP-------------------------
+
+STEP 1: INSTALL XAMPP SERVER ON YOUR LOCALHOST
+STEP 2: COPY THIS FOLDER TO C:\xampp\htdocs\
+STEP 3: DOWNLOAD THE .sql FROM https://drive.google.com/file/d/0B77xAtHK1hd4Ukx6SHpqTkd6TWM/view
+STEP 4: IMPORT OR RUN THE SQL (DATABASE NAME: bincomphptest)
+STEP 5: GOTO YOUR BROWSER AND BROWSE http://localhost/bincom_interview/app/
+
+THEN YOU ARE GOOD TO GO.
+
+DATE: 10th MARCH, 2023
